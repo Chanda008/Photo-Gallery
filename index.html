@@ -1,0 +1,138 @@
+<html>
+
+<head>
+    <title>
+        Photo Gallery
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <ul class="menu">
+        <li class="links"><a href="#home">Home</a></li>
+        <li class="links"><a href="#grid">Grid View</a></li>
+        <li class="links"><a href="#slide">Slide View</a></li>
+    </ul>
+
+    <section id="home">
+        <img src="Background.jpg" class="profile">
+        <h1>Photo Gallery</h1>
+    </section>
+    <section id="grid">
+        <h2>Grid View</h2>
+        <br>
+        <div class="row">
+            <img class="img1" src="img1.jpg">
+            <img class="img2" src="img2.jpg">
+            <img class="img3" src="img3.jpg">
+            <img class="img4" src="img11.jpg">
+            <br><br>
+        </div>
+        <div class="row2">
+            <img class="img11" src="img11.jpg">
+            <img class="img12" src="img12.jpg">
+            <img class="img13" src="img13.jpg">
+            <img class="img14" src="img14.jpg">
+            <br><br>
+        </div>
+        
+        <section id="slide">
+            <h1>Slide View</h1>
+            <div class="line"></div>
+            <div class="carousel slide" id="myCarousel">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center>
+                            <a>
+                                <img src="img1.jpg" class="img-responsive">
+                            </a>
+                            <div class="carousel-content">
+                                <p>White Rose</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <a>
+                                <img src="img2.jpg" class="img-responsive">
+                            </a>
+                            <div class="carousel-content">
+                                <p>Sweet William</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <a>
+                                <img src="img3.jpg" class="img-responsive">
+                            </a>
+                            <div class="carousel-content">
+                                <p>Periwinkle</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <a>
+                                <img src="img4.jpg" class="img-responsive">
+                            </a>
+                            <div class="carousel-content">
+                                <p>Snow Crocus</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <a>
+                                <img src="img11.jpg" class="img-responsive">
+                            </a>
+                            <div class="carousel-content">
+                                <p>Tulip</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <a>
+                                <img src="img12.jpg" class="img-responsive">
+                            </a>
+                            <div class="carousel-content">
+                                <p>Grass Lilly</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <a>
+                                <img src="img13.jpg" class="img-responsive">
+                            </a>
+                            <div class="carousel-content">
+                                <p>Dahlia Pinnata</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <a>
+                                <img src="img14.jpg" class="img-responsive">
+                            </a>
+                            <div class="carousel-content">
+                                <p>White Daisy</p>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+                
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </section>
+        
