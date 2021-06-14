@@ -1,0 +1,103 @@
+body{
+    text-align: center;
+    margin:0;
+    color: #f2e9e9;
+}
+.profile{
+    margin-bottom: 50px;
+    border-radius: 50px;
+}
+.menu{
+    font-family: sans-serif;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    height: 40px;
+}
+.links{
+    color: #FFF;
+    padding-top: 5px;
+    padding-left: 33px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 30px;
+    display: inline;
+}
+.links:hover{
+    background-color: hotpink;
+}
+a{
+    text-decoration: none;
+    color: pink;
+}
+img{
+    height: 600px;
+    width: 800px;
+}
+h1{
+    color: mediumpurple;
+    margin: -200;
+    font-size: 50px;
+    font-family:fantasy;
+}
+h2{
+    margin-top: 300;
+    font-size: 40px;
+}
+#grid{
+    background-color: lightpink;
+}
+.img1{
+    height: 300px;
+    width: 220;
+}
+.img2{
+    height: 300px;
+    width: 210;
+}
+.img3{
+    height: 300px;
+    width: 220;
+}
+.img4{
+    height: 300px;
+    width: 210;
+}
+.img11{
+    height: 300px;
+    width: 210;
+}
+.img12{
+    height: 300px;
+    width: 210;
+}
+.img13{
+    height: 300px;
+    width: 210;
+}
+.img14{
+    height: 300px;
+    width: 210;
+}
+#myCarousel{
+    background-color: hotpink;
+}
+#myCarousel img{
+    height: 300px;
+    margin-top: 35px;
+}
+.carousel-inner p{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.img-responsive{
+    height: 300px;
+    width: 210px;
+}
